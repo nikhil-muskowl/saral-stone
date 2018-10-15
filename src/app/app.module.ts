@@ -8,6 +8,17 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { OurWorksComponent } from './pages/our-works/our-works.component';
 import { OurWorkDetailComponent } from './pages/our-work-detail/our-work-detail.component';
 import { AppRoutingModule } from './app-routing.module';
+import { SliderComponent } from './component/slider/slider.component';
+import { TestimonialComponent } from './component/testimonial/testimonial.component';
+import { OurClientsComComponent } from './component/our-clients-com/our-clients-com.component';
+import { SomeFactsComComponent } from './component/some-facts-com/some-facts-com.component';
+import { LatestBlogsComComponent } from './component/latest-blogs-com/latest-blogs-com.component';
+import { OurExpertsComComponent } from './component/our-experts-com/our-experts-com.component';
+import { WhoWeAreComComponent } from './component/who-we-are-com/who-we-are-com.component';
+import { LatestProjectsComComponent } from './component/latest-projects-com/latest-projects-com.component';
+import { WelcomComComponent } from './component/welcom-com/welcom-com.component';
+import { FooterComComponent } from './component/footer-com/footer-com.component';
+import { HeaderComComponent } from './component/header-com/header-com.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +27,18 @@ import { AppRoutingModule } from './app-routing.module';
     AboutComponent,
     ContactComponent,
     OurWorksComponent,
-    OurWorkDetailComponent
+    OurWorkDetailComponent,
+    SliderComponent,
+    TestimonialComponent,
+    OurClientsComComponent,
+    SomeFactsComComponent,
+    LatestBlogsComComponent,
+    OurExpertsComComponent,
+    WhoWeAreComComponent,
+    LatestProjectsComComponent,
+    WelcomComComponent,
+    FooterComComponent,
+    HeaderComComponent
   ],
   imports: [
     BrowserModule,

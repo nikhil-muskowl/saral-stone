@@ -44,12 +44,10 @@
               "src/assets/js/isotope.pkgd.min.js",
               "node_modules/owl.carousel/dist/owl.carousel.min.js",
               "src/assets/js/jquery.owl-filter.js",
-              "src/assets/js/stellar.min.js",
-              "src/assets/js/custom.js",
+              "src/assets/js/stellar.min.js",              
               "src/assets/js/shortcode.js",
               "src/assets/plugins/revolution/revolution/js/jquery.themepunch.tools.min.js",
-              "src/assets/plugins/revolution/revolution/js/jquery.themepunch.revolution.min.js",
-              "src/assets/plugins/revolution/revolution/js/jquery.themepunch.tools.min",
+              "src/assets/plugins/revolution/revolution/js/jquery.themepunch.revolution.min.js",              
               "src/assets/plugins/revolution/revolution/js/extensions/revolution-plugin.js",
               "src/assets/plugins/revolution/revolution-addons/beforeafter/js/revolution.addon.beforeafter.min.js"
             ]
