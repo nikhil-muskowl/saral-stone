@@ -19,6 +19,11 @@ import { LatestProjectsComComponent } from './component/latest-projects-com/late
 import { WelcomComComponent } from './component/welcom-com/welcom-com.component';
 import { FooterComComponent } from './component/footer-com/footer-com.component';
 import { HeaderComComponent } from './component/header-com/header-com.component';
+import { TermsAndConditionsComponent } from './pages/terms-and-conditions/terms-and-conditions.component';
+import { PrivacyPolicyComponent } from './pages/privacy-policy/privacy-policy.component';
+import { CollectionsComponent } from './pages/collections/collections.component';
+import { ProductsComponent } from './pages/products/products.component';
+import { BlogsComponent } from './pages/blogs/blogs.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +43,12 @@ import { HeaderComComponent } from './component/header-com/header-com.component'
     LatestProjectsComComponent,
     WelcomComComponent,
     FooterComComponent,
-    HeaderComComponent
+    HeaderComComponent,
+    TermsAndConditionsComponent,
+    PrivacyPolicyComponent,
+    CollectionsComponent,
+    ProductsComponent,
+    BlogsComponent
   ],
   imports: [
     BrowserModule,

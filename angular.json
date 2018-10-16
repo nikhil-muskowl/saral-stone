@@ -41,15 +41,16 @@
               "src/assets/js/waypoints.min.js",
               "src/assets/js/counterup.min.js",
               "src/assets/js/waypoints-sticky.min.js",
-              "src/assets/js/isotope.pkgd.min.js",
-              "node_modules/owl.carousel/dist/owl.carousel.min.js",
+              "src/assets/js/isotope.pkgd.min.js",              
+              "node_modules/owl.carousel/dist/owl.carousel.min.js",              
               "src/assets/js/jquery.owl-filter.js",
               "src/assets/js/stellar.min.js",              
               "src/assets/js/shortcode.js",
               "src/assets/plugins/revolution/revolution/js/jquery.themepunch.tools.min.js",
               "src/assets/plugins/revolution/revolution/js/jquery.themepunch.revolution.min.js",              
               "src/assets/plugins/revolution/revolution/js/extensions/revolution-plugin.js",
-              "src/assets/plugins/revolution/revolution-addons/beforeafter/js/revolution.addon.beforeafter.min.js"
+              "src/assets/plugins/revolution/revolution-addons/beforeafter/js/revolution.addon.beforeafter.min.js",
+              "src/assets/js/rev-script-2.js"
             ]
           },
           "configurations": {

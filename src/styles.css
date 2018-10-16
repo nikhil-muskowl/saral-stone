@@ -2462,7 +2462,7 @@ ol.list-num-count.list-outline-none > li:before {background-color:transparent;	c
 }
 .testimonial-home.owl-carousel .owl-dots .owl-dot.active span{
 	border: none;
-	background-color: #000 !important;
+	background-color: #d1ae6e !important;
 	-webkit-transition: all 0.5s linear;
 	-moz-transition: all 0.5s linear;
 	-ms-transition: all 0.5s linear;
@@ -4618,7 +4618,10 @@ button.scroltop span {font-size: 10px;    line-height: 10px;}
 
 .section-head h1,
 .section-head h2,
-.section-head h3 {margin-top:0;}
+.section-head h3 {
+	margin-top:0;
+	color: #d2ae6d;
+}
 .title-small {display:block;	color:#7a959d;	margin-bottom:15px;}
 .section-head p {padding-top:10px;	font-size:14px;}
 .section-head p:last-child {	margin-bottom:0;}
@@ -4930,7 +4933,7 @@ ol.commentlist li::after {
  right:0;
  width:12px;
  height:3px;
- background-color:#000;
+ background-color:#d1ae6e;
  -webkit-transition: all 0.5s linear;
  -moz-transition: all 0.5s linear;
  -ms-transition: all 0.5s linear;
@@ -5702,4 +5705,13 @@ transition: all 0.2s ease;
 100% {
 	opacity: 1;
 }
+}
+
+
+.our-client-section{
+	background-image:url('assets/images/background/client-bg.jpg');
+	background-size: cover;
+	padding-top: 10rem;
+	padding-bottom: 10rem;
+	margin-top: 5rem;
 }

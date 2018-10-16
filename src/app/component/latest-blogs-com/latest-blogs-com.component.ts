@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-
+declare var jQuery: any;
+declare var $: any;
 @Component({
   selector: 'app-latest-blogs-com',
   templateUrl: './latest-blogs-com.component.html',
