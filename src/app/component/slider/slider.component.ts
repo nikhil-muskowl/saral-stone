@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+
 declare var jQuery: any;
 declare var $: any;
 @Component({
@@ -113,7 +114,36 @@ export class SliderComponent implements OnInit {
       jQuery('.rev_slider .tp-caption.tp-blendvideo[data-blendmode]').remove();
     }
 
-    
+
+    // BEFORE/AFTER INITIALISATION
+    // RevSliderBeforeAfter(tpj, tpj("#rev_slider_346_1"), {
+    //   arrowStyles: {
+    //     leftIcon: "fa fa-caret-left",
+    //     rightIcon: "fa fa-caret-right",
+    //     topIcon: "fa fa-caret-up",
+    //     bottomIcon: "fa fa-caret-down",
+    //     size: "35",
+    //     color: "#ffffff",
+    //     bgColor: "transparent",
+    //     spacing: "10",
+    //     padding: "0",
+    //     borderRadius: "0"
+    //   },
+    //   dividerStyles: {
+    //     width: "1",
+    //     color: "rgba(255, 255, 255, 0.5)"
+    //   },
+    //   onClick: {
+    //     time: "500",
+    //     easing: "Power2.easeOut",
+    //   },
+    //   cursor: "move",
+    //   carousel: false
+    // });
+
   }
+
+
+
 
 }

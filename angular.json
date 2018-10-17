@@ -49,8 +49,7 @@
               "src/assets/plugins/revolution/revolution/js/jquery.themepunch.tools.min.js",
               "src/assets/plugins/revolution/revolution/js/jquery.themepunch.revolution.min.js",              
               "src/assets/plugins/revolution/revolution/js/extensions/revolution-plugin.js",
-              "src/assets/plugins/revolution/revolution-addons/beforeafter/js/revolution.addon.beforeafter.min.js",
-              "src/assets/js/rev-script-2.js"
+              "src/assets/plugins/revolution/revolution-addons/beforeafter/js/revolution.addon.beforeafter.min.js"
             ]
           },
           "configurations": {
