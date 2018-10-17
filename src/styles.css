@@ -8604,7 +8604,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 -------------------------------------*/
 
 .footer-large .footer-bottom {
-	padding: 20px 0px;
+	padding: 100px 0px 60px 0px;
 	color: #787878;
 	font-size: 13px;
 }
@@ -9636,8 +9636,18 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 }
 
 .hilite-title.bdr-left {
-	border-left: 10px;
-	border-style: solid;
+	/* border-left: 10px;
+	border-style: solid; */
+	border-right: 25px solid transparent;
+}
+.hilite-title.bdr-left:after {
+	content: url('assets/images/background/pillar.png');
+	display: inline-block;
+	height: 15em;
+	vertical-align: bottom;
+	width: 10%;
+	margin-top: -11rem;
+	margin-left: -5rem;
 }
 
 .hilite-title.bdr-right {
@@ -9686,7 +9696,7 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 .carousel-bg-img {
 	position: absolute;
 	right: -65px;
-	top: -50px;
+	top: -100px;
 	width: 100%;
 }
 
@@ -9992,7 +10002,7 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 	padding: 60px 30px 60px 50px;
 	/* border:15px solid #fff;	 */
 	border-right: 0px;
-	background-image: url('assets/images/background/bg-border.png');
+	background-image: url('assets/images/background/fact-border.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -10857,19 +10867,23 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 .our-client-section {
 	background-image: url('assets/images/background/client-bg.jpg');
 	background-size: cover;
-	padding-top: 1rem;
-	padding-bottom: 3rem;
-	margin-top: 5rem;
+	padding-top: 5rem;
+	padding-bottom: 5rem;	
+}
+.camel-bg{
+	background-image: url('assets/images/background/client-top.png');
+	background-repeat: no-repeat;
+	background-position: bottom;
 }
 
 .saral-border-1 {
 	background-image: url('assets/images/background/saral-border.png');
 	background-repeat: no-repeat;
-	padding-top: 10rem;
+	padding-top: 5rem;
 }
 
 .saral-border-2 {
 	background-image: url('assets/images/background/saral-border-2.png');
 	background-repeat: no-repeat;
-	padding-top: 10rem;
+	padding-top: 5rem;
 }
