@@ -2355,7 +2355,7 @@ ol.list-num-count.list-outline-none>li:before {
 }
 
 .text-secondry {
-	color: #efefef;
+	color: #e4cea7;
 }
 
 .text-black {
@@ -9625,7 +9625,7 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 	font-size: 70px;
 	line-height: 80px;
 	font-weight: bold;
-	color: rgba(230, 193, 141, 0.3);
+	color: rgba(237, 223, 197, 0.3);
 }
 
 .hilite-title span {
@@ -9934,7 +9934,7 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 	bottom: 20px;
 	width: 260px;
 	min-height: 120px;
-	background-color: #000;
+	background-color: #d2ae6d;
 	padding-left: 40px;
 }
 
@@ -9964,7 +9964,10 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 	width: 400px;
 	min-height: 400px;
 	padding: 25px 70px 25px 25px;
-	border: 15px solid #000;
+	/* border: 15px solid #000; */
+	background-image: url('assets/images/background/blog-bg.png');
+	background-position: center;
+	background-size: cover;
 }
 
 .latest-blog-square .v-date {
@@ -10870,6 +10873,14 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 	padding-top: 5rem;
 	padding-bottom: 5rem;	
 }
+
+.expert-bg1{
+	background-image: url('assets/images/background/expert-bg.png');
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: cover;
+}
+
 .camel-bg{
 	background-image: url('assets/images/background/client-top.png');
 	background-repeat: no-repeat;
