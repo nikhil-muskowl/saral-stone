@@ -9832,7 +9832,7 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 
 .carousel-hover .wt-carousel-info {
 	bottom: -300px;
-	opacity: 0px;
+	/* opacity: 0px; */
 }
 
 .carousel-hover .owl-item.active .wt-carousel-info {
