@@ -3094,7 +3094,7 @@ ol.list-num-count.list-outline-none>li:before {
 
 .wt-img-overlay1:after, .wt-img-overlay1:before, .gradi-black:before, .gradi-black:after, .gradi-white:before, .gradi-white:after {
 	content: "";
-	background: rgb(210, 174, 109,0.3);
+	background: rgb(210, 174, 109, 0.3);
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -3108,7 +3108,6 @@ ol.list-num-count.list-outline-none>li:before {
 	-o-transition: all 0.3s linear;
 	transition: all 0.3s linear;
 }
-
 
 /*-------------------------------------
 	1. effect 1
@@ -4629,8 +4628,8 @@ ol.list-num-count.list-outline-none>li:before {
 }
 
 .testimonial-6 .testimonial-pic:after, .testimonial-6 .testimonial-pic:before, .testimonial-grid-6 .testimonial-pic:after, .testimonial-grid-6 .testimonial-pic:before {
-	content: url('assets/images/background/testimonial-corner.png');	
-	position: absolute;		
+	content: url('assets/images/background/testimonial-corner.png');
+	position: absolute;
 	/* background-color: #373737; */
 }
 
@@ -4693,7 +4692,7 @@ ol.list-num-count.list-outline-none>li:before {
 	transition: all 0.5s linear;
 }
 
-.testimonial-home.owl-carousel .owl-dots .owl-dot.active span {	
+.testimonial-home.owl-carousel .owl-dots .owl-dot.active span {
 	background-color: #D2AE6D !important;
 	-webkit-transition: all 0.5s linear;
 	-moz-transition: all 0.5s linear;
@@ -9418,7 +9417,7 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 /*2.6. Out Team six*/
 
 .team-outer {
-	margin-top: 198px;	
+	margin-top: 198px;
 }
 
 @media only screen and (max-width:767px) {
@@ -9660,6 +9659,7 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 	border-style: solid; */
 	border-right: 25px solid transparent;
 }
+
 .hilite-title.bdr-left:after {
 	content: url('assets/images/background/pillar.png');
 	display: inline-block;
@@ -9708,16 +9708,14 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 .m-carousel-2 .home-carousel-2 .owl-nav .owl-prev {
 	left: -30px;
 	background: #d2ae6d;
-    color: #fff;
+	color: #fff;
 }
 
 .m-carousel-2 .home-carousel-2 .owl-nav .owl-next {
 	right: -44px;
 	background: #d2ae6d;
-    color: #fff;
+	color: #fff;
 }
-
-
 
 .carousel-bg-img {
 	position: absolute;
@@ -9810,7 +9808,6 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 	height: 100px;
 	left: -20px;
 	bottom: -40px; */
-
 	width: 100px;
 	height: 6px;
 	left: -40px;
@@ -10213,6 +10210,8 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 .about-us-carousel.owl-carousel .owl-nav .owl-prev, .about-us-carousel.owl-carousel .owl-nav .owl-next {
 	display: block;
 	margin: 0px;
+	background: #373737;
+	color: #fff;
 }
 
 @media only screen and (max-width:767px) {
@@ -10637,12 +10636,11 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 }
 
 .owl-carousel-filter .owl-nav button.owl-next, .owl-carousel-filter .owl-nav button.owl-prev, .owl-carousel-filter button.owl-dot {
-    background: #D2AE6D;
-    color: #fff;
-    border: none;
-    padding: 0 !important;
-    font: inherit;
-
+	background: #D2AE6D;
+	color: #fff;
+	border: none;
+	padding: 0 !important;
+	font: inherit;
 }
 
 @-webkit-keyframes fadeOut {
@@ -10911,10 +10909,10 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 	background-image: url('assets/images/background/client-bg.jpg');
 	background-size: cover;
 	padding-top: 5rem;
-	padding-bottom: 5rem;	
+	padding-bottom: 5rem;
 }
 
-.expert-bg1{
+.expert-bg1 {
 	background-image: url('assets/images/background/expert-bg.png');
 	background-repeat: no-repeat;
 	background-position: bottom;
@@ -10929,7 +10927,7 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 	color: rgba(237, 217, 182, 0.5);
 }
 
-.camel-bg{
+.camel-bg {
 	background-image: url('assets/images/background/client-top.png');
 	background-repeat: no-repeat;
 	background-position: bottom;
@@ -10947,3 +10945,38 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 	padding-top: 5rem;
 }
 
+.camel-move {
+	width: 500px;
+	position: relative;
+	-webkit-animation: myfirst 100s infinite;
+	/* Safari 4.0 - 8.0 */
+	-webkit-animation-direction: forwards;
+	/* Safari 4.0 - 8.0 */
+	animation: myfirst 100s infinite;
+	animation-direction: forwards;
+}
+
+.image-flip {
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+}
+
+/* Safari 4.0 - 8.0 */
+
+@-webkit-keyframes myfirst {
+	from {
+		left: 0%;
+	}
+	to {
+		left: 100%;
+	}
+}
+
+@keyframes myfirst {
+	from {
+		left: 0%;
+	}
+	to {
+		left: 100%;
+	}
+}
