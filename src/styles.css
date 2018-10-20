@@ -11079,11 +11079,11 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 
 	/* App slider CSS */
 
-	app-slider .forcefullwidth_wrapper_tp_banner .rev_slider_wrapper {
+	/* app-slider .forcefullwidth_wrapper_tp_banner .rev_slider_wrapper {
 		height: 202px !important;
 	}
 	
-	app-slider div#slide-964-layer-1 {
+	.forcefullwidth_wrapper_tp_banner .rev_slider_wrapper div#slide-964-layer-1 {
 		top: 140px !important;
 		font-size: 26px !important;
 		line-height: 26px !important;
@@ -11091,7 +11091,7 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 		padding: 0px 0px 0px 114px !important;
 	}
 	
-	app-slider #slide-964-layer-4 {
+	.forcefullwidth_wrapper_tp_banner .rev_slider_wrapper div#slide-964-layer-4 {
 		top: 140px;
 		font-size: 26px;
 			line-height: 26px;
@@ -11099,19 +11099,19 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 		padding: 0px 0px 0px 114px;
 	}
 	
-	.tp-parallax-wrap #slide-964-layer-2 {
+	.forcefullwidth_wrapper_tp_banner .rev_slider_wrapper div#slide-964-layer-2 {
 		top: 228px;
 	}
 	
-	.tp-parallax-wrap #slide-964-layer-5 {
+	.forcefullwidth_wrapper_tp_banner .rev_slider_wrapper div#slide-964-layer-5 {
 		top: 228px;
 	}
 	
-	.tp-parallax-wrap #slide-964-layer-3 {
+	.forcefullwidth_wrapper_tp_banner .rev_slider_wrapper div#slide-964-layer-3 {
 		top: 324px;
 	}
 	
-	.tp-parallax-wrap #slide-964-layer-6 {
+	.forcefullwidth_wrapper_tp_banner .rev_slider_wrapper div#slide-964-layer-6 {
 		top: 324px;
-	}
+	} */
 }
