@@ -558,6 +558,12 @@ Version: 2.0
 1. GENERAL 
 ======================================*/
 
+html {
+	overflow-x: hidden;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
 body {
 	background-color: #FFF;
 	font-family: 'Poppins', sans-serif;
@@ -10978,5 +10984,134 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 	}
 	to {
 		left: 100%;
+	}
+}
+
+/* Samsung Galaxy S5 ----------- */
+
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+	#what-is {
+		padding-left: 10px !important;
+    	padding-right: 10px !important;
+	}
+
+	.expert-bg1 .m-experts {
+		padding-right: 20px !important;
+	}
+
+	.section-full {
+		padding-top: 0px !important;
+		padding-bottom: 30px;
+	}
+
+	h2.font-40 {
+		font-size: 23px;
+		line-height: 34px;
+	}
+
+	.hilite-title.bdr-right {
+		margin-bottom: -20px;
+			margin-top: 80px;
+		padding-left: 20px;
+			padding-right: 80px;
+	}
+	
+	.hilite-title.bdr-right:after {
+		height: 14em;
+		width: 15%;
+		margin-top: -11rem;
+		margin-right: -3rem;
+	}
+
+	h2.font-36 {
+		font-size: 24px;
+		line-height: 0px;
+	}
+
+	.wt-separator {
+		width: 9rem;
+	}
+
+	.btn-filter-wrap {
+		list-style: none;
+		margin: 38px 0 0;
+		float: right;
+	}
+
+	.btn-filter-wrap li {
+		font-size: 14px;
+		padding: 0 10px;
+	}
+
+	.hilite-title.bdr-right {
+		padding-left: 30px;
+		padding-right: 6px;
+	}
+
+	.hilite-title.bdr-left:after {
+		margin-left: -4rem;
+	}
+
+	app-latest-projects-com div {
+		margin-top: 15px;
+	}
+
+	app-latest-blogs-com div {
+		margin-top: 15px;
+	}
+
+	app-testimonial div {
+		margin-top: 15px;
+	}
+
+	app-who-we-are-com div {
+		margin-top: 15px;
+	}
+
+	app-who-we-are-com .hilite-title.bdr-left {
+		margin-bottom: -20px;
+    	margin-top: 40px;
+	}
+
+	.section-head {
+		margin-bottom: 26px;
+	}
+
+	/* App slider CSS */
+
+	app-slider .forcefullwidth_wrapper_tp_banner .rev_slider_wrapper {
+		height: 202px !important;
+	}
+	
+	app-slider div#slide-964-layer-1 {
+		top: 140px !important;
+		font-size: 26px !important;
+		line-height: 26px !important;
+		letter-spacing: 16px !important;
+		padding: 0px 0px 0px 114px !important;
+	}
+	
+	app-slider #slide-964-layer-4 {
+		top: 140px;
+		font-size: 26px;
+			line-height: 26px;
+		letter-spacing: 16px;
+		padding: 0px 0px 0px 114px;
+	}
+	
+	.tp-parallax-wrap #slide-964-layer-2 {
+		top: 228px;
+	}
+	
+	.tp-parallax-wrap #slide-964-layer-5 {
+		top: 228px;
+	}
+	
+	.tp-parallax-wrap #slide-964-layer-3 {
+		top: 324px;
+	}
+	
+	.tp-parallax-wrap #slide-964-layer-6 {
+		top: 324px;
 	}
 }
