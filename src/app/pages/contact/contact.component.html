@@ -39,18 +39,49 @@
     <div class="section-content">
       <!-- CONTACT FORM-->
       <div class="wt-box">
-        <form class="contact-form cons-contact-form" method="post" action="form-handler.php">
+        <span *ngIf="msgSuccess" class="text-success">
+          {{msgSuccess}}
+        </span>
+        <span *ngIf="msgWarning" class="text-error">
+          {{msgWarning}}
+        </span>
+        <form class="contact-form cons-contact-form" (ngSubmit)="submitForm()" [formGroup]="contactForm">
           <div class="contact-one p-a40 p-r150">
-            <div class="form-group">
-              <input name="username" type="text" required class="form-control" placeholder="Name">
+
+            <div class="form-group" [class.has-error]="formErrors.name">
+              <input type="text" class="form-control" placeholder="Full Name" formControlName="name">
+              <span *ngIf="formErrors.name" class="text-error">
+                  {{formErrors.name}}
+              </span>
             </div>
 
-            <div class="form-group">
-              <input name="email" type="text" class="form-control" required placeholder="Email">
+            <div class="form-group" [class.has-error]="formErrors.email">
+              <input type="text" class="form-control" placeholder="Email ID" formControlName="email">
+              <span *ngIf="formErrors.email" class="text-error">
+                  {{formErrors.email}}
+              </span>
             </div>
 
-            <div class="form-group">
-              <textarea name="message" rows="3" class="form-control " required placeholder="Message"></textarea>
+            <div class="form-group" [class.has-error]="formErrors.contact">
+              <input type="text" class="form-control" placeholder="Mobile No." formControlName="contact">
+              <span *ngIf="formErrors.contact" class="text-error">
+                  {{formErrors.contact}}
+              </span>
+            </div>
+
+            <div class="form-group" [class.has-error]="formErrors.country">
+              <ngx-select-dropdown style="padding: 0px 0px;" class="form-control" formControlName="country" [config]="config" [options]="dropdownOptions" 
+              [(value)]="dataModel" [multiple]="false" ></ngx-select-dropdown>
+              <span *ngIf="formErrors.country" class="text-error">
+                  {{formErrors.country}}
+              </span>
+            </div>
+
+            <div class="form-group" [class.has-error]="formErrors.inquiry">
+                <textarea type="text" class="form-control" rows=3 placeholder="Your Message" formControlName="inquiry"></textarea>
+                <span *ngIf="formErrors.inquiry" class="text-error">
+                    {{formErrors.inquiry}}
+                </span>
             </div>
 
             <button name="submit" type="submit" value="Submit" class="site-button black radius-no text-uppercase">
@@ -58,19 +89,34 @@
             </button>
 
             <div class="contact-info bg-black text-white p-a30">
-              <div class="wt-icon-box-wraper left p-b30">
+              <div class="wt-icon-box-wraper left p-b10">
+                  <div class="icon-sm"><i class="iconmoon-smartphone-1"></i></div>
+                  <div class="icon-content text-white ">
+                    <h4 class="m-t0 text-uppercase">FACTORY AND SHOWROOM:</h4>
+                  </div>
+              </div>
+
+              <div class="wt-icon-box-wraper left p-b15">
                 <div class="icon-sm"><i class="iconmoon-smartphone-1"></i></div>
                 <div class="icon-content text-white ">
-                  <h5 class="m-t0 text-uppercase">Phone number</h5>
-                  <p>(456) 789 10 12</p>
+                  <h5 class="m-t0 text-uppercase">Mobile number</h5>
+                  <p>+91 76655 04555, +91 98290 42448</p>
                 </div>
               </div>
 
-              <div class="wt-icon-box-wraper left p-b30">
+              <div class="wt-icon-box-wraper left p-b15">
                 <div class="icon-sm"><i class="iconmoon-email"></i></div>
                 <div class="icon-content text-white">
                   <h5 class="m-t0  text-uppercase">Email address</h5>
-                  <p>Moderninfo@gmail.com</p>
+                  <p>info@saralstone.com</p>
+                </div>
+              </div>
+
+              <div class="wt-icon-box-wraper left p-b15">
+                <div class="icon-sm"><i class="iconmoon-email"></i></div>
+                <div class="icon-content text-white">
+                  <h5 class="m-t0  text-uppercase">Web</h5>
+                  <p>www.saralstone.com</p>
                 </div>
               </div>
 
@@ -78,7 +124,7 @@
                 <div class="icon-sm"><i class="iconmoon-travel"></i></div>
                 <div class="icon-content text-white">
                   <h5 class="m-t0  text-uppercase">Address info</h5>
-                  <p>55/11 Land Street, Modern New Yourk City, USA</p>
+                  <p>NH. 8, Amberi Sukher Industrial Area, Udaipur - 313001 (Rajasthan) INDIA</p>
                 </div>
               </div>
             </div>

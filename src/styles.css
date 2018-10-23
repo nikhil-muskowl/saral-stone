@@ -558,6 +558,36 @@ Version: 2.0
 1. GENERAL 
 ======================================*/
 
+@import '~angular-notifier/styles.css';
+
+.has-error .help-block,
+.has-error .control-label,
+.has-error .radio,
+.has-error .checkbox,
+.has-error .radio-inline,
+.has-error .checkbox-inline,
+.has-error.radio label,
+.has-error.checkbox label,
+.has-error.radio-inline label,
+.has-error.checkbox-inline label {
+    color: #ea6153;
+}
+.has-error .form-control {
+    border-color: #ea6153;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+}
+.has-error .form-control:focus {
+    border-color: #ea6153;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #ce8483;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #ce8483;
+}
+
+.text-error{
+    color: #ea6153;
+}
+
+
 html {
 	overflow-x: hidden;
     margin-left: 0px !important;
@@ -11079,39 +11109,56 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 
 	/* App slider CSS */
 
-	/* app-slider .forcefullwidth_wrapper_tp_banner .rev_slider_wrapper {
+	app-slider #rev_slider_346_1_forcefullwidth {
 		height: 202px !important;
 	}
+
+	app-slider .forcefullwidth_wrapper_tp_banner .rev_slider_wrapper {
+		height: 202px !important;
+	} 
 	
 	.forcefullwidth_wrapper_tp_banner .rev_slider_wrapper div#slide-964-layer-1 {
-		top: 140px !important;
+		top: -204px !important;
 		font-size: 26px !important;
 		line-height: 26px !important;
 		letter-spacing: 16px !important;
-		padding: 0px 0px 0px 114px !important;
+		padding: 0px 0px 0px 26px !important;
 	}
 	
 	.forcefullwidth_wrapper_tp_banner .rev_slider_wrapper div#slide-964-layer-4 {
-		top: 140px;
-		font-size: 26px;
-			line-height: 26px;
-		letter-spacing: 16px;
-		padding: 0px 0px 0px 114px;
+		top: -204px !important;
+		font-size: 26px !important;
+		line-height: 26px !important;
+		letter-spacing: 16px !important;
+		padding: 0px 0px 0px 26px !important;
 	}
 	
 	.forcefullwidth_wrapper_tp_banner .rev_slider_wrapper div#slide-964-layer-2 {
-		top: 228px;
+		top: -236px !important;
 	}
 	
 	.forcefullwidth_wrapper_tp_banner .rev_slider_wrapper div#slide-964-layer-5 {
-		top: 228px;
+		top: -236px !important;
 	}
 	
 	.forcefullwidth_wrapper_tp_banner .rev_slider_wrapper div#slide-964-layer-3 {
-		top: 324px;
+		top: -303px !important;
+		line-height: 36px !important;
+		padding: 0px 14px 0px 14px !important;
 	}
 	
 	.forcefullwidth_wrapper_tp_banner .rev_slider_wrapper div#slide-964-layer-6 {
-		top: 324px;
-	} */
+		top: -303px !important;
+		line-height: 36px !important;
+		padding: 0px 14px 0px 14px !important;
+	} 
+
+	.footer-bottom {
+		padding: 10px 0px !important;
+	}
+}
+
+/* Address is large so changed top 30px to 40px */
+.contact-info {
+    top: 40px !important;
 }

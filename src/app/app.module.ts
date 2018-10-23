@@ -1,6 +1,10 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { SelectDropDownModule } from 'ngx-select-dropdown';
+
 import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
 import { AboutComponent } from './pages/about/about.component';
@@ -24,6 +28,7 @@ import { PrivacyPolicyComponent } from './pages/privacy-policy/privacy-policy.co
 import { CollectionsComponent } from './pages/collections/collections.component';
 import { ProductsComponent } from './pages/products/products.component';
 import { BlogsComponent } from './pages/blogs/blogs.component';
+
 
 @NgModule({
   declarations: [
@@ -52,7 +57,11 @@ import { BlogsComponent } from './pages/blogs/blogs.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    FormsModule,
+    SelectDropDownModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
