@@ -9921,14 +9921,32 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 37. line-amiation-block
 ===========================*/
 
+/* Done changes on 23/10/2018 start */
+
 .line-amiation {
 	position: relative;
 	width: 100%;
 	height: 100%;
 }
 
-.line-amiation:after, .line-amiation:before {
-	content: "";
+.line-amiation:after {
+	/* content: ""; */
+	content: url('assets/images/lines/h_line.png');
+	position: absolute;
+	background-color: #fff;
+	left: 20px;
+	top: 20px;
+	-webkit-transition: all 0.7s linear;
+	-moz-transition: all 0.7s linear;
+	-ms-transition: all 0.7s linear;
+	-o-transition: all 0.7s linear;
+	transition: all 0.7s linear;
+	opacity: 0;
+}
+
+ .line-amiation:before {
+	/* content: ""; */
+	content: url('assets/images/lines/v_line.png');
 	position: absolute;
 	background-color: #fff;
 	left: 20px;
@@ -9952,13 +9970,13 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 }
 
 .line-amiation:hover:after {
-	width: 100%;
+	/* width: 100%; */
 	opacity: 1;
 	left: -20px;
 }
 
 .line-amiation:hover:before {
-	height: 100%;
+	/* height: 100%; */
 	top: -20px;
 	opacity: 1;
 }
@@ -9977,11 +9995,14 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 	transform: rotate(-90deg);
 }
 
+
 @media only screen and (max-width:420px) {
 	.line-amiation a.v-button {
 		bottom: 70px;
 	}
 }
+
+/* Done changes on 23/10/2018 end */
 
 /*===========================
 38. latest-blog-dark
