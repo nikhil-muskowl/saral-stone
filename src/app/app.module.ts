@@ -3,7 +3,6 @@ import { NgModule } from '@angular/core';
 
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { SelectDropDownModule } from 'ngx-select-dropdown';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
@@ -59,8 +58,7 @@ import { BlogsComponent } from './pages/blogs/blogs.component';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule,
-    SelectDropDownModule,
+    FormsModule,   
     ReactiveFormsModule,
   ],
   providers: [],

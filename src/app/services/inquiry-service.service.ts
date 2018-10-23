@@ -32,8 +32,7 @@ export class InquiryServiceService {
 
     this.formData.append('name', data.name);
     this.formData.append('email', data.email);
-    this.formData.append('contact', data.contact);
-    this.formData.append('country', data.country);
+    this.formData.append('contact', data.contact);    
     this.formData.append('inquiry', data.inquiry);
 
     return this.http.post(this.URL,

@@ -67,15 +67,7 @@
               <span *ngIf="formErrors.contact" class="text-error">
                   {{formErrors.contact}}
               </span>
-            </div>
-
-            <div class="form-group" [class.has-error]="formErrors.country">
-              <ngx-select-dropdown style="padding: 0px 0px;" class="form-control" formControlName="country" [config]="config" [options]="dropdownOptions" 
-              [(value)]="dataModel" [multiple]="false" ></ngx-select-dropdown>
-              <span *ngIf="formErrors.country" class="text-error">
-                  {{formErrors.country}}
-              </span>
-            </div>
+            </div>           
 
             <div class="form-group" [class.has-error]="formErrors.inquiry">
                 <textarea type="text" class="form-control" rows=3 placeholder="Your Message" formControlName="inquiry"></textarea>

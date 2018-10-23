@@ -48,14 +48,6 @@ export class ContactComponent implements OnInit {
     this.createForm();
    }
 
-  dropdownOptions: Array<any> = [ 'Germany', 'Spain', 'USA', 'Mexico', 'China'];
-
-  config = {
-    displayKey:"description",
-    placeholder:'Select Your Country',
-    search:true,
-    searchPlaceholder:'Search'
-  }
 
   ngOnInit() {
     window.scrollTo(0, 0);
@@ -73,11 +65,7 @@ export class ContactComponent implements OnInit {
       contact: [this.contact,
         Validators.compose([
           Validators.required,
-        ])],
-      country: [this.country,
-      Validators.compose([
-        Validators.required,
-      ])],
+        ])],     
       inquiry: [this.inquiry,
       Validators.compose([
         Validators.required,
@@ -113,10 +101,7 @@ export class ContactComponent implements OnInit {
                  }
                  if (element.id == 'contact') {
                    this.formErrors.contact = element.text
-                 }
-                 if (element.id == 'country') {
-                   this.formErrors.country = element.text
-                 }
+                 }                 
                  if (element.id == 'inquiry') {
                    this.formErrors.inquiry = element.text
                  }

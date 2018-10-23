@@ -558,7 +558,6 @@ Version: 2.0
 1. GENERAL 
 ======================================*/
 
-@import '~angular-notifier/styles.css';
 
 .has-error .help-block,
 .has-error .control-label,
@@ -10984,11 +10983,11 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 .camel-move {
 	width: 500px;
 	position: relative;
-	-webkit-animation: myfirst 100s infinite;
+	-webkit-animation: myfirst 150s infinite;
 	/* Safari 4.0 - 8.0 */
 	-webkit-animation-direction: forwards;
 	/* Safari 4.0 - 8.0 */
-	animation: myfirst 100s infinite;
+	animation: myfirst 150s infinite;
 	animation-direction: forwards;
 }
 
