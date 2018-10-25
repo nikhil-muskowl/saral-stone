@@ -1,0 +1,44 @@
+<!-- TESTIMONIALS SECTION START -->
+<div class="section-full p-t140 bg-repeat" style="background-image:url(assets/images/background/ptn-1.png);">
+
+  <div class="container">
+    <div class="section-content">
+      <!-- TITLE START -->
+      <div class="section-head text-left">
+        <h2 class="text-uppercase font-36">Testimonials</h2>
+        <div class="wt-separator-outer">
+          <div class="wt-separator"></div>
+        </div>
+      </div>
+      <!-- TITLE END -->
+      <!-- TESTIMONIAL 4 START ON BACKGROUND -->
+      <div class="section-content">
+        <div class="owl-carousel testimonial-home">
+
+          <div *ngFor="let record of model; let i = index;" class="item">
+            <div class="testimonial-6">
+              <div class="testimonial-pic-block">
+                <div class="testimonial-pic">
+                  <img src="{{record.image}}" width="132" height="132" alt="">
+                </div>
+              </div>
+              <div class="testimonial-text clearfix bg-white">
+                <div class="testimonial-detail clearfix">
+                  <strong class="testimonial-name">{{record.author}}</strong>
+                  <span class="testimonial-position p-t0">{{record.role}}</span>
+                </div>
+                <div class="testimonial-paragraph text-black p-t15">
+                  <span class="fa fa-quote-left"></span>
+                  <p>{{record.text}}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+<!-- TESTIMONIALS SECTION END -->

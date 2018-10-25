@@ -16,7 +16,7 @@
           <div>
             <ul class="wt-breadcrumb breadcrumb-style-2">
               <li><a href="javascript:void(0);">Home</a></li>
-              <li>News listing</li>
+              <li>Blogs</li>
             </ul>
           </div>
         </div>
@@ -33,171 +33,25 @@
     <div class="container">
       <div class="news-listing ">
         <!-- COLUMNS 1 -->
-        <div class="blog-post blog-md date-style-1 clearfix bdr-2 bdr-gray-light m-b60 bg-gray">
+        <div *ngFor="let record of model; let i = index;" class="blog-post blog-md date-style-1 clearfix bdr-2 bdr-gray-light m-b60 bg-gray">
           <div class="wt-post-media wt-img-effect zoom-slow">
-            <a href="javascript:void(0);"><img src="assets/images/gallery/pic2.jpg" alt=""></a>
+            <a href="javascript:void(0);"><img src="{{record.banner_thumb}}" alt=""></a>
+            <!-- <a href="javascript:void(0);"><img src="assets/images/gallery/pic2.jpg" alt=""></a> -->
           </div>
           <div class="wt-post-info p-tb30 text-black">
             <div class="wt-post-title ">
-              <h2 class="post-title"><a href="javascript:void(0);" class="text-black font-20 letter-spacing-4 font-weight-600">Triangle
-                  Concrete House on lake</a></h2>
+              <h2 class="post-title"><a href="javascript:void(0);" class="text-black font-20 letter-spacing-4 font-weight-600">{{record.title}}</a></h2>
             </div>
             <div class="wt-post-meta ">
               <ul>
-                <li class="post-date"><strong>20 Feb</strong> <span> 2018</span> </li>
-                <li class="post-author"><a href="javascript:void(0);">By <span>Admin</span></a> </li>
+                <li class="post-date"><strong>{{record.created_date}}</strong> <span>{{record.created_date}}</span> </li>
+                <li class="post-author"><a href="javascript:void(0);">By <span>{{record.user_name}}</span></a> </li>
               </ul>
             </div>
             <div class="wt-post-text">
-              <p>Asperiores, tenetur, blanditiis, quaerat odit ex exercitationem pariatur quibusdam veritatis quisquam
-                laboriosam esse beatae hic perferendis velit deserunt soluta iste repellendus officia in neque veniam
-                debitis</p>
+              <p>{{record.description}}</p>
             </div>
-            <a href="javscript:;" class="v-button letter-spacing-4 font-12 text-uppercase">Read More</a>
-          </div>
-        </div>
-        <!-- COLUMNS 2 -->
-        <div class="blog-post blog-md date-style-1 clearfix bdr-2 bdr-gray-light m-b60 bg-gray">
-          <div class="wt-post-media wt-img-effect zoom-slow">
-            <a href="javascript:void(0);"><img src="assets/images/gallery/pic6.jpg" alt=""></a>
-          </div>
-          <div class="wt-post-info p-tb30 text-black">
-            <div class="wt-post-title ">
-              <h2 class="post-title"><a href="javascript:void(0);" class="text-black font-20 letter-spacing-4 font-weight-600">Triangle
-                  Concrete House on lake</a></h2>
-            </div>
-            <div class="wt-post-meta ">
-              <ul>
-                <li class="post-date"><strong>20 Feb</strong> <span> 2018</span> </li>
-                <li class="post-author"><a href="javascript:void(0);">By <span>Admin</span></a> </li>
-              </ul>
-            </div>
-            <div class="wt-post-text">
-              <p>Asperiores, tenetur, blanditiis, quaerat odit ex exercitationem pariatur quibusdam veritatis quisquam
-                laboriosam esse beatae hic perferendis velit deserunt soluta iste repellendus officia in neque veniam
-                debitis</p>
-            </div>
-            <a href="javscript:;" class="v-button letter-spacing-4 font-12 text-uppercase">Read More</a>
-          </div>
-        </div>
-        <!-- COLUMNS 3 -->
-        <div class="blog-post blog-md date-style-1 clearfix bdr-2 bdr-gray-light m-b60 bg-gray">
-          <div class="wt-post-media wt-img-effect zoom-slow">
-            <a href="javascript:void(0);"><img src="assets/images/gallery/pic1.jpg" alt=""></a>
-          </div>
-          <div class="wt-post-info p-tb30 text-black">
-            <div class="wt-post-title ">
-              <h2 class="post-title"><a href="javascript:void(0);" class="text-black font-20 letter-spacing-4 font-weight-600">Triangle
-                  Concrete House on lake</a></h2>
-            </div>
-            <div class="wt-post-meta ">
-              <ul>
-                <li class="post-date"><strong>20 Feb</strong> <span> 2018</span> </li>
-                <li class="post-author"><a href="javascript:void(0);">By <span>Admin</span></a> </li>
-              </ul>
-            </div>
-            <div class="wt-post-text">
-              <p>Asperiores, tenetur, blanditiis, quaerat odit ex exercitationem pariatur quibusdam veritatis quisquam
-                laboriosam esse beatae hic perferendis velit deserunt soluta iste repellendus officia in neque veniam
-                debitis</p>
-            </div>
-            <a href="javscript:;" class="v-button letter-spacing-4 font-12 text-uppercase">Read More</a>
-          </div>
-        </div>
-        <!-- COLUMNS 4 -->
-        <div class="blog-post blog-md date-style-1 clearfix bdr-2 bdr-gray-light m-b60 bg-gray">
-          <div class="wt-post-media wt-img-effect zoom-slow">
-            <a href="javascript:void(0);"><img src="assets/images/gallery/pic3.jpg" alt=""></a>
-          </div>
-          <div class="wt-post-info p-tb30 text-black">
-            <div class="wt-post-title ">
-              <h2 class="post-title"><a href="javascript:void(0);" class="text-black font-20 letter-spacing-4 font-weight-600">Triangle
-                  Concrete House on lake</a></h2>
-            </div>
-            <div class="wt-post-meta ">
-              <ul>
-                <li class="post-date"><strong>20 Feb</strong> <span> 2018</span> </li>
-                <li class="post-author"><a href="javascript:void(0);">By <span>Admin</span></a> </li>
-              </ul>
-            </div>
-            <div class="wt-post-text">
-              <p>Asperiores, tenetur, blanditiis, quaerat odit ex exercitationem pariatur quibusdam veritatis quisquam
-                laboriosam esse beatae hic perferendis velit deserunt soluta iste repellendus officia in neque veniam
-                debitis</p>
-            </div>
-            <a href="javscript:;" class="v-button letter-spacing-4 font-12 text-uppercase">Read More</a>
-          </div>
-        </div>
-        <!-- COLUMNS 5 -->
-        <div class="blog-post blog-md date-style-1 clearfix bdr-2 bdr-gray-light m-b60 bg-gray">
-          <div class="wt-post-media wt-img-effect zoom-slow">
-            <a href="javascript:void(0);"><img src="assets/images/gallery/pic5.jpg" alt=""></a>
-          </div>
-          <div class="wt-post-info p-tb30 text-black">
-            <div class="wt-post-title ">
-              <h2 class="post-title"><a href="javascript:void(0);" class="text-black font-20 letter-spacing-4 font-weight-600">Triangle
-                  Concrete House on lake</a></h2>
-            </div>
-            <div class="wt-post-meta ">
-              <ul>
-                <li class="post-date"><strong>20 Feb</strong> <span> 2018</span> </li>
-                <li class="post-author"><a href="javascript:void(0);">By <span>Admin</span></a> </li>
-              </ul>
-            </div>
-            <div class="wt-post-text">
-              <p>Asperiores, tenetur, blanditiis, quaerat odit ex exercitationem pariatur quibusdam veritatis quisquam
-                laboriosam esse beatae hic perferendis velit deserunt soluta iste repellendus officia in neque veniam
-                debitis</p>
-            </div>
-            <a href="javscript:;" class="v-button letter-spacing-4 font-12 text-uppercase">Read More</a>
-          </div>
-        </div>
-        <!-- COLUMNS 6 -->
-        <div class="blog-post blog-md date-style-1 clearfix bdr-2 bdr-gray-light m-b60 bg-gray">
-          <div class="wt-post-media wt-img-effect zoom-slow">
-            <a href="javascript:void(0);"><img src="assets/images/gallery/pic4.jpg" alt=""></a>
-          </div>
-          <div class="wt-post-info p-tb30 text-black">
-            <div class="wt-post-title ">
-              <h2 class="post-title"><a href="javascript:void(0);" class="text-black font-20 letter-spacing-4 font-weight-600">Triangle
-                  Concrete House on lake</a></h2>
-            </div>
-            <div class="wt-post-meta ">
-              <ul>
-                <li class="post-date"><strong>20 Feb</strong> <span> 2018</span> </li>
-                <li class="post-author"><a href="javascript:void(0);">By <span>Admin</span></a> </li>
-              </ul>
-            </div>
-            <div class="wt-post-text">
-              <p>Asperiores, tenetur, blanditiis, quaerat odit ex exercitationem pariatur quibusdam veritatis quisquam
-                laboriosam esse beatae hic perferendis velit deserunt soluta iste repellendus officia in neque veniam
-                debitis</p>
-            </div>
-            <a href="javscript:;" class="v-button letter-spacing-4 font-12 text-uppercase">Read More</a>
-          </div>
-        </div>
-        <!-- COLUMNS 7 -->
-        <div class="blog-post blog-md date-style-1 clearfix bdr-2 bdr-gray-light m-b60 bg-gray">
-          <div class="wt-post-media wt-img-effect zoom-slow">
-            <a href="javascript:void(0);"><img src="assets/images/gallery/pic8.jpg" alt=""></a>
-          </div>
-          <div class="wt-post-info p-tb30 text-black">
-            <div class="wt-post-title ">
-              <h2 class="post-title"><a href="javascript:void(0);" class="text-black font-20 letter-spacing-4 font-weight-600">Triangle
-                  Concrete House on lake</a></h2>
-            </div>
-            <div class="wt-post-meta ">
-              <ul>
-                <li class="post-date"><strong>20 Feb</strong> <span> 2018</span> </li>
-                <li class="post-author"><a href="javascript:void(0);">By <span>Admin</span></a> </li>
-              </ul>
-            </div>
-            <div class="wt-post-text">
-              <p>Asperiores, tenetur, blanditiis, quaerat odit ex exercitationem pariatur quibusdam veritatis quisquam
-                laboriosam esse beatae hic perferendis velit deserunt soluta iste repellendus officia in neque veniam
-                debitis</p>
-            </div>
-            <a href="javscript:;" class="v-button letter-spacing-4 font-12 text-uppercase">Read More</a>
+            <a href="blog-detail/{{record.id}}" class="v-button letter-spacing-4 font-12 text-uppercase">Read More</a>
           </div>
         </div>
       </div>

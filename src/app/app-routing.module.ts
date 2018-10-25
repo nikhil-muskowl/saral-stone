@@ -11,6 +11,8 @@ import { PrivacyPolicyComponent } from './pages/privacy-policy/privacy-policy.co
 import { CollectionsComponent } from './pages/collections/collections.component';
 import { ProductsComponent } from './pages/products/products.component';
 import { BlogsComponent } from './pages/blogs/blogs.component';
+import { BlogDetailComponent } from './pages/blog-detail/blog-detail.component';
+
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'about-us', component: AboutComponent },
@@ -21,6 +23,7 @@ const routes: Routes = [
   { path: 'collections', component: CollectionsComponent },
   { path: 'products', component: ProductsComponent },
   { path: 'blogs', component: BlogsComponent },
+  { path: 'blog-detail/:id', component: BlogDetailComponent },
 ];
 
 @NgModule({

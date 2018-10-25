@@ -27,6 +27,7 @@ import { PrivacyPolicyComponent } from './pages/privacy-policy/privacy-policy.co
 import { CollectionsComponent } from './pages/collections/collections.component';
 import { ProductsComponent } from './pages/products/products.component';
 import { BlogsComponent } from './pages/blogs/blogs.component';
+import { BlogDetailComponent } from './pages/blog-detail/blog-detail.component';
 
 
 @NgModule({
@@ -52,7 +53,8 @@ import { BlogsComponent } from './pages/blogs/blogs.component';
     PrivacyPolicyComponent,
     CollectionsComponent,
     ProductsComponent,
-    BlogsComponent
+    BlogsComponent,
+    BlogDetailComponent
   ],
   imports: [
     BrowserModule,

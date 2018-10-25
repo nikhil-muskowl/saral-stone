@@ -11056,6 +11056,15 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 		font-size: 16px !important;
 		line-height: 44px !important;
 	} 
+
+	#blog-detail-img {
+		height: 400px !important;
+	}
+
+	#blog-detail-section {
+		padding-top: 50px !important;
+		padding-bottom: 0px !important;
+	}
 }
 
 /* iPhone 4 ----------- */
@@ -11245,6 +11254,19 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 	#blog-section {
 		padding-top: 30px !important;
 		padding-bottom: 0px !important;
+	}
+
+	#blog-detail-section {
+		padding-top: 30px !important;
+		padding-bottom: 0px !important;
+	}
+
+	#blog-post-detail {
+		margin-bottom: 0px !important;
+	}
+
+	#blog-detail-img {
+		height: 330px !important;
 	}
 
 	#about-us-section-1 {
@@ -11481,6 +11503,19 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 		padding-bottom: 0px !important;
 	}
 
+	#blog-detail-section {
+		padding-top: 30px !important;
+		padding-bottom: 0px !important;
+	}
+
+	#blog-post-detail {
+		margin-bottom: 0px !important;
+	}
+
+	#blog-detail-img {
+		height: 330px !important;
+	}
+
 	#about-us-section-1 {
 		padding-top: 30px !important;
 		padding-bottom: 0px !important;
@@ -11713,6 +11748,19 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 	#blog-section {
 		padding-top: 30px !important;
 		padding-bottom: 0px !important;
+	}
+
+	#blog-detail-section {
+		padding-top: 30px !important;
+		padding-bottom: 0px !important;
+	}
+
+	#blog-post-detail {
+		margin-bottom: 0px !important;
+	}
+
+	#blog-detail-img {
+		height: 330px !important;
 	}
 
 	#about-us-section-1 {
@@ -11949,6 +11997,19 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 		padding-bottom: 0px !important;
 	}
 
+	#blog-detail-section {
+		padding-top: 30px !important;
+		padding-bottom: 0px !important;
+	}
+
+	#blog-post-detail {
+		margin-bottom: 0px !important;
+	}
+
+	#blog-detail-img {
+		height: 330px !important;
+	}
+
 	#about-us-section-1 {
 		padding-top: 30px !important;
 		padding-bottom: 0px !important;
@@ -12181,6 +12242,19 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 	#blog-section {
 		padding-top: 30px !important;
 		padding-bottom: 0px !important;
+	}
+
+	#blog-detail-section {
+		padding-top: 30px !important;
+		padding-bottom: 0px !important;
+	}
+
+	#blog-post-detail {
+		margin-bottom: 0px !important;
+	}
+
+	#blog-detail-img {
+		height: 330px !important;
 	}
 
 	#about-us-section-1 {
@@ -12418,6 +12492,19 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 		padding-bottom: 0px !important;
 	}
 
+	#blog-detail-section {
+		padding-top: 30px !important;
+		padding-bottom: 0px !important;
+	}
+
+	#blog-post-detail {
+		margin-bottom: 0px !important;
+	}
+
+	#blog-detail-img {
+		height: 330px !important;
+	}
+
 	#about-us-section-1 {
 		padding-top: 30px !important;
 		padding-bottom: 0px !important;
@@ -12650,6 +12737,19 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 	#blog-section {
 		padding-top: 30px !important;
 		padding-bottom: 0px !important;
+	}
+
+	#blog-detail-section {
+		padding-top: 30px !important;
+		padding-bottom: 0px !important;
+	}
+
+	#blog-post-detail {
+		margin-bottom: 0px !important;
+	}
+
+	#blog-detail-img {
+		height: 330px !important;
 	}
 
 	#about-us-section-1 {
@@ -12886,6 +12986,19 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 		padding-bottom: 0px !important;
 	}
 
+	#blog-detail-section {
+		padding-top: 30px !important;
+		padding-bottom: 0px !important;
+	}
+
+	#blog-post-detail {
+		margin-bottom: 0px !important;
+	}
+
+	#blog-detail-img {
+		height: 330px !important;
+	}
+
 	#about-us-section-1 {
 		padding-top: 30px !important;
 		padding-bottom: 0px !important;
@@ -13118,6 +13231,19 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 	#blog-section {
 		padding-top: 30px !important;
 		padding-bottom: 0px !important;
+	}
+
+	#blog-detail-section {
+		padding-top: 30px !important;
+		padding-bottom: 0px !important;
+	}
+
+	#blog-post-detail {
+		margin-bottom: 0px !important;
+	}
+
+	#blog-detail-img {
+		height: 330px !important;
 	}
 
 	#about-us-section-1 {

@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { TestimonialsService } from '../../services/testimonial/testimonials.service';
+
 declare var jQuery: any;
 declare var $: any;
 @Component({
@@ -8,7 +10,14 @@ declare var $: any;
 })
 export class TestimonialComponent implements OnInit {
 
-  constructor() { }
+  result;
+  public model: any[] = [];
+
+  constructor(
+    private testimonialsService: TestimonialsService
+  ) {
+    this.getTestimonials();
+  }
 
   ngOnInit() {
     jQuery('.testimonial-home').owlCarousel({
@@ -27,6 +36,28 @@ export class TestimonialComponent implements OnInit {
         }
       }
     });
+  }
+
+  getTestimonials() {
+    this.model = [];
+    this.testimonialsService.getData().subscribe(
+      response => {
+        for (let index = 0; index < response.data.length; index++) {
+          this.model.push({
+            id: response.data[index].id,
+            author: response.data[index].author,
+            image: response.data[index].image,
+            role: response.data[index].role,
+            text: response.data[index].text,
+          });         
+        }
+
+        //console.log(this.model);
+      },
+      err => {
+        console.error(err)
+      },
+    );
   }
 
 }

@@ -1,0 +1,95 @@
+<!-- CONTENT START -->
+<div class="page-content ">
+
+  <!-- INNER PAGE BANNER -->
+  <div class="wt-bnr-inr overlay-wraper bg-parallax bg-top-center"  data-stellar-background-ratio="0.5"  style="background-image:url(images/banner/3.jpg) ;">
+    <div class="overlay-main bg-black opacity-07"></div>
+      <div class="container">
+          <div class="wt-bnr-inr-entry">
+            <div class="banner-title-outer">
+                <div class="banner-title-name">
+                  <h2 class="text-white text-uppercase letter-spacing-5 font-18 font-weight-300">A truly integrated way of working.</h2>
+                  </div>
+              </div>
+              <!-- BREADCRUMB ROW -->                            
+              <div class="p-tb20">
+                  <div>
+                      <ul class="wt-breadcrumb breadcrumb-style-2">
+                          <li><a href="javascript:void(0);">Home</a></li>
+                          <li>Blog Details</li>
+                      </ul>
+                  </div>
+              </div>
+              <!-- BREADCRUMB ROW END -->                        
+          </div>
+      </div>
+  </div>
+  <!-- INNER PAGE BANNER END -->
+
+  <!-- SECTION CONTENT START -->
+  <div class="section-full p-tb90 square_shape1 square_shape3" id="blog-detail-section">
+      <div class="container">
+          <div class="blog-post blog-lg date-style-1 text-black" id="blog-post-detail">
+              <div class="wt-post-media wt-img-effect zoom-slow">
+                <a href="javascript:void(0);"><img src="{{details[0].banner_thumb}}" id="blog-detail-img" alt=""></a>
+              </div>
+              <div class="wt-post-info p-tb30 bg-white">
+                  <div class="wt-post-title ">
+                      <h2 class="post-title"><a href="javascript:void(0);" class="text-black font-20 letter-spacing-2 font-weight-600">{{details[0].title}}</a></h2>
+                  </div>
+                  <div class="wt-post-meta">
+                      <ul>
+                          <li class="post-date"> <strong>{{details[0].created_date}}</strong> <span> {{details[0].created_date}}</span> </li>
+                          <li class="post-author"><a href="javascript:void(0);">By <span>{{details[0].user_name}}</span></a> </li>
+                          <li class="post-comment"><a href="javascript:void(0);">5 Comments</a> </li>
+                      </ul>
+                  </div>
+                  <div class="wt-post-text">
+                      <p>{{details[0].description}}</p> 
+                  </div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-md-4 col-sm-6">
+                  <div class="widget bg-white  widget_tag_cloud">
+                    <h4 class="tagcloud text-uppercase">Tags</h4>
+                    <div class="tagcloud">
+                      <div *ngFor="let tag of details[0].tags; let i = index;">
+                        <a href="javascript:void(0);">{{tag}}</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <div class="widget bg-white  widget_tag_cloud">
+                  <h4 class="tagcloud text-uppercase">Categories</h4>
+                  <div class="tagcloud">
+                    <div *ngFor="let category of details[0].categories; let i = index;">
+                      <a href="javascript:void(0);">{{category}}</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                  <div class="wt-box">
+                    <div class="row  p-lr15">
+                      <h4 class="tagcloud text-uppercase">Share this Post:</h4>
+                      <div class="widget_social_inks">
+                          <ul class="social-icons social-md social-square social-dark m-b0">
+                              <li><a href="javascript:void(0);" class="fa fa-facebook"></a></li>
+                              <li><a href="javascript:void(0);" class="fa fa-twitter"></a></li>
+                              <li><a href="javascript:void(0);" class="fa fa-rss"></a></li>
+                              <li><a href="javascript:void(0);" class="fa fa-youtube"></a></li>
+                              <li><a href="javascript:void(0);" class="fa fa-instagram"></a></li>
+                          </ul>
+                      </div>
+                  </div>
+                </div>
+              </div>
+          </div>                  
+      </div>
+  </div>
+  <!-- SECTION CONTENT END -->
+
+</div>
+<!-- CONTENT END -->
