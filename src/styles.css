@@ -2479,6 +2479,18 @@ ol.list-num-count.list-outline-none>li:before {
 	background-color: #3097db;
 }
 
+.bg-custom {
+	background-color: #dcc2a2;
+}
+
+/* #our-services h4:hover {
+    color: #d1ae6e;
+}
+
+#our-services p:hover {
+    color: #d1ae6e;
+} */
+
 /*-------------------------------------
 	3. background image
 -------------------------------------*/
@@ -9903,7 +9915,9 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 	width: 100%;
 	height: 100%;
 	z-index: 1;
-	background-color: #373737;
+	/* background-color: #373737; */
+	/* background-color: #e8d6b6; */
+	background-color: #dcc2a2;
 	opacity: 0;
 	-webkit-transition: all 0.5s linear;
 	-moz-transition: all 0.5s linear;
@@ -10293,6 +10307,7 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 	-o-transition: all 0.5s ease-out;
 	transition: all 0.5s ease-out;
 	border: 2px solid #fff;
+	/* border: 2px solid #d1ae6e; */
 }
 
 .circle-block-outer .wt-icon-box-wraper:hover {
@@ -10607,7 +10622,7 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 	position: absolute;
 	left: -50px;
 	z-index: 5;
-	background-color: #fff;
+	background-color: #dcc2a2;
 	right: 15px;
 }
 
@@ -10615,13 +10630,22 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 	position: absolute;
 	right: -50px;
 	z-index: 5;
-	background-color: #373737;
+	/* background-color: #373737; */
+	background-color: #dcc2a2;
 	left: 15px;
 }
 
 .our-story .row:nth-child(even) .our-story-detail h3, .our-story .row:nth-child(even) .our-story-detail h2, .our-story .row:nth-child(even) .our-story-detail p {
-	color: #fff;
+	color: #fff !important;
 }
+
+/* .our-story #first-row h3, h2, p {
+	color : #000 !important;
+}
+
+.our-story #forth-row h3, h2, p {
+	color : #000 !important;
+} */
 
 @media only screen and (max-width:1200px) {
 	.our-story .our-story-detail {
@@ -11040,6 +11064,9 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 
 /* iPad 3 ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+	.tp-fullwidth-forcer {
+		height: 599px !important;
+	}
 
 	app-slider #rev_slider_346_1_forcefullwidth {
 		height: 600px !important;
@@ -11308,10 +11335,23 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 		padding: 10px 10px;
 	}
 
+	#about-us-our-experts .wt-left-part {
+		margin-left: 0px !important;
+	}
+
+	app-products #product-section {
+		padding-bottom: 0px !important;
+		padding-top: 60px !important;
+	}
+
 }
 
 /* iPhone 4 ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+	.tp-fullwidth-forcer {
+		height: 281px !important;
+	}
+
 	#what-is {
 		padding-left: 10px !important;
     	padding-right: 10px !important;
@@ -11340,6 +11380,9 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 	#home-our-experts {
 		padding-top: 0px !important;
 		padding-bottom: 10px !important;
+		/*Hide this section in mobile view */
+		visibility: hidden !important;
+   		height: 0px !important;
 	}
 
 	#home-latest-blog {
@@ -11675,6 +11718,10 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 
 /* iPhone 5 ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+	.tp-fullwidth-forcer {
+		height: 281px !important;
+	}
+
 	#what-is {
 		padding-left: 10px !important;
     	padding-right: 10px !important;
@@ -11703,6 +11750,9 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 	#home-our-experts {
 		padding-top: 0px !important;
 		padding-bottom: 10px !important;
+		/*Hide this section in mobile view */
+		visibility: hidden !important;
+   		height: 0px !important;
 	}
 
 	#home-latest-blog {
@@ -12038,6 +12088,10 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 
 /* iPhone 6, 7, 8 ----------- */
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+	.tp-fullwidth-forcer {
+		height: 281px !important;
+	}
+
 	#what-is {
 		padding-left: 10px !important;
     	padding-right: 10px !important;
@@ -12066,6 +12120,9 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 	#home-our-experts {
 		padding-top: 0px !important;
 		padding-bottom: 10px !important;
+		/*Hide this section in mobile view */
+		visibility: hidden !important;
+   		height: 0px !important;
 	}
 
 	#home-latest-blog {
@@ -12401,6 +12458,10 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 
 /* iPhone 6+, 7+, 8+ ----------- */
 @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+	.tp-fullwidth-forcer {
+		height: 281px !important;
+	}
+
 	#what-is {
 		padding-left: 10px !important;
     	padding-right: 10px !important;
@@ -12429,6 +12490,9 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 	#home-our-experts {
 		padding-top: 0px !important;
 		padding-bottom: 10px !important;
+		/*Hide this section in mobile view */
+		visibility: hidden !important;
+   		height: 0px !important;
 	}
 
 	#home-latest-blog {
@@ -12764,6 +12828,10 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 
 /* iPhone X ----------- */
 @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+	.tp-fullwidth-forcer {
+		height: 281px !important;
+	}
+
 	#what-is {
 		padding-left: 10px !important;
     	padding-right: 10px !important;
@@ -12792,6 +12860,9 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 	#home-our-experts {
 		padding-top: 0px !important;
 		padding-bottom: 10px !important;
+		/*Hide this section in mobile view */
+		visibility: hidden !important;
+   		height: 0px !important;
 	}
 
 	#home-latest-blog {
@@ -13128,6 +13199,10 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 
 /* iPhone XS Max, XR ----------- */
 @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+	.tp-fullwidth-forcer {
+		height: 281px !important;
+	}
+
 	#what-is {
 		padding-left: 10px !important;
     	padding-right: 10px !important;
@@ -13156,6 +13231,9 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 	#home-our-experts {
 		padding-top: 0px !important;
 		padding-bottom: 10px !important;
+		/*Hide this section in mobile view */
+		visibility: hidden !important;
+   		height: 0px !important;
 	}
 
 	#home-latest-blog {
@@ -13491,6 +13569,10 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 
 /* Samsung Galaxy S3 ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+	.tp-fullwidth-forcer {
+		height: 281px !important;
+	}
+
 	#what-is {
 		padding-left: 10px !important;
     	padding-right: 10px !important;
@@ -13519,6 +13601,9 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 	#home-our-experts {
 		padding-top: 0px !important;
 		padding-bottom: 10px !important;
+		/*Hide this section in mobile view */
+		visibility: hidden !important;
+   		height: 0px !important;
 	}
 
 	#home-latest-blog {
@@ -13854,6 +13939,10 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 
 /* Samsung Galaxy S4 ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+	.tp-fullwidth-forcer {
+		height: 281px !important;
+	}
+
 	#what-is {
 		padding-left: 10px !important;
     	padding-right: 10px !important;
@@ -13882,6 +13971,9 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 	#home-our-experts {
 		padding-top: 0px !important;
 		padding-bottom: 10px !important;
+		/*Hide this section in mobile view */
+		visibility: hidden !important;
+   		height: 0px !important;
 	}
 
 	#home-latest-blog {
@@ -14217,6 +14309,10 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 
 /* Samsung Galaxy S5 ----------- */
 @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+	.tp-fullwidth-forcer {
+		height: 281px !important;
+	}
+
 	#what-is {
 		padding-left: 10px !important;
     	padding-right: 10px !important;
@@ -14245,6 +14341,9 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 	#home-our-experts {
 		padding-top: 0px !important;
 		padding-bottom: 10px !important;
+		/*Hide this section in mobile view */
+		visibility: hidden !important;
+   		height: 0px !important;
 	}
 
 	#home-latest-blog {
@@ -14577,3 +14676,17 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 		padding: 0px 0px;
 	}
 }
+
+/* Main slider */
+.rev_column_bg, .rev_column_inner, .tp-blockmask {
+	background-color: #e4d2b3 !important;
+}
+
+.bg-overlay-main {
+	color: #dcc2a2 !important;
+}
+
+.bg-custom-main {
+    background-color: #dcc2a2 !important;
+}
+

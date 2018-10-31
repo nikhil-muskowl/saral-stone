@@ -21,6 +21,8 @@ export class AboutComponent implements OnInit {
       items:1,
       dots: false,
     });
+
+    window.scrollTo(0, 0);
   }
 
 }

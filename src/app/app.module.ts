@@ -28,6 +28,7 @@ import { CollectionsComponent } from './pages/collections/collections.component'
 import { ProductsComponent } from './pages/products/products.component';
 import { BlogsComponent } from './pages/blogs/blogs.component';
 import { BlogDetailComponent } from './pages/blog-detail/blog-detail.component';
+import { ProjectDetailComponent } from './pages/project-detail/project-detail.component';
 
 
 @NgModule({
@@ -54,7 +55,8 @@ import { BlogDetailComponent } from './pages/blog-detail/blog-detail.component';
     CollectionsComponent,
     ProductsComponent,
     BlogsComponent,
-    BlogDetailComponent
+    BlogDetailComponent,
+    ProjectDetailComponent
   ],
   imports: [
     BrowserModule,

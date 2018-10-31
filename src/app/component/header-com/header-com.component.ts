@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+declare var jquery: any;
+declare var $: any;
 
 @Component({
   selector: 'app-header-com',
@@ -12,8 +14,10 @@ export class HeaderComComponent implements OnInit {
   }
 
   ngOnInit() {
-    
-
+    $('.nav-link').on('click', function () {
+      $('.navbar-collapse').collapse('hide');
+    });
+   
   }
 
 }

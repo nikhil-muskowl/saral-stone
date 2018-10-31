@@ -25,6 +25,7 @@ export class BlogDetailComponent implements OnInit {
   }
 
   ngOnInit() {
+    window.scrollTo(0, 0);
   }
 
   public getBlogDetail(id) {

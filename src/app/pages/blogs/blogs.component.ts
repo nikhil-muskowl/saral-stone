@@ -20,6 +20,7 @@ export class BlogsComponent implements OnInit {
   }
 
   ngOnInit() {
+    window.scrollTo(0, 0);
   }
 
   getBlogList() {
