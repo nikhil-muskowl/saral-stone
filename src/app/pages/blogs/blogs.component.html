@@ -35,7 +35,7 @@
         <!-- COLUMNS 1 -->
         <div *ngFor="let record of model; let i = index;" class="blog-post blog-md date-style-1 clearfix bdr-2 bdr-gray-light m-b60 bg-gray">
           <div class="wt-post-media wt-img-effect zoom-slow">
-            <a href="javascript:void(0);"><img src="{{record.banner_thumb}}" alt=""></a>
+            <a href="javascript:void(0);"><img src="{{record.image}}" alt=""></a>
             <!-- <a href="javascript:void(0);"><img src="assets/images/gallery/pic2.jpg" alt=""></a> -->
           </div>
           <div class="wt-post-info p-tb30 text-black">
@@ -51,7 +51,7 @@
             <div class="wt-post-text">
               <p>{{record.description}}</p>
             </div>
-            <a href="blog-detail/{{record.id}}" class="v-button letter-spacing-4 font-12 text-uppercase">Read More</a>
+            <a routerLink="/blog-detail/{{record.id}}" class="v-button letter-spacing-4 font-12 text-uppercase">Read More</a>
           </div>
         </div>
       </div>
