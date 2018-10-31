@@ -11064,6 +11064,11 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 
 /* iPad 3 ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+	.news-listing  .wt-post-media img {
+		width: 716px !important;
+		height: 448px !important;
+	}
+	
 	.tp-fullwidth-forcer {
 		height: 599px !important;
 	}
@@ -11348,6 +11353,11 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 
 /* iPhone 4 ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+	.news-listing  .wt-post-media img {
+		width: 286px !important;
+		height: 179px !important;
+	}
+	
 	.tp-fullwidth-forcer {
 		height: 281px !important;
 	}
@@ -11718,6 +11728,11 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 
 /* iPhone 5 ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+	.news-listing  .wt-post-media img {
+		width: 286px !important;
+		height: 179px !important;
+	}
+	
 	.tp-fullwidth-forcer {
 		height: 281px !important;
 	}
@@ -12088,6 +12103,11 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 
 /* iPhone 6, 7, 8 ----------- */
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+	.news-listing  .wt-post-media img {
+		width: 341px !important;
+		height: 213px !important;
+	}
+	
 	.tp-fullwidth-forcer {
 		height: 281px !important;
 	}
@@ -12458,6 +12478,11 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 
 /* iPhone 6+, 7+, 8+ ----------- */
 @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+	.news-listing  .wt-post-media img {
+		width: 380px !important;
+		height: 238px !important;
+	}
+	
 	.tp-fullwidth-forcer {
 		height: 281px !important;
 	}
@@ -12828,6 +12853,11 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 
 /* iPhone X ----------- */
 @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+	.news-listing  .wt-post-media img {
+		width: 341px !important;
+		height: 213px !important;
+	}
+	
 	.tp-fullwidth-forcer {
 		height: 281px !important;
 	}
@@ -13199,6 +13229,11 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 
 /* iPhone XS Max, XR ----------- */
 @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+	.news-listing  .wt-post-media img {
+		width: 380px !important;
+		height: 238px !important;
+	}
+
 	.tp-fullwidth-forcer {
 		height: 281px !important;
 	}
@@ -13569,6 +13604,11 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 
 /* Samsung Galaxy S3 ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+	.news-listing  .wt-post-media img {
+		width: 286px !important;
+		height: 179px !important;
+	}
+	
 	.tp-fullwidth-forcer {
 		height: 281px !important;
 	}
@@ -13939,6 +13979,11 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 
 /* Samsung Galaxy S4 ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+	.news-listing  .wt-post-media img {
+		width: 286px !important;
+		height: 179px !important;
+	}
+
 	.tp-fullwidth-forcer {
 		height: 281px !important;
 	}
@@ -14309,6 +14354,11 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 
 /* Samsung Galaxy S5 ----------- */
 @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+	.news-listing  .wt-post-media img {
+		width: 326px !important;
+		height: 204px !important;
+	}
+
 	.tp-fullwidth-forcer {
 		height: 281px !important;
 	}
@@ -14690,3 +14740,6 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
     background-color: #dcc2a2 !important;
 }
 
+.news-listing  .wt-post-media img {
+	height: 406px !important;
+}
