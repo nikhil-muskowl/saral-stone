@@ -14727,6 +14727,22 @@ a, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .wt-icon-box-xld, .wt
 	}
 }
 
+/* Pixel 2 */
+@media only screen and (min-device-width: 411px) and (max-device-height: 731px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+	.news-listing  .wt-post-media img {
+		width: 377px !important;
+		height: 236px !important;
+	}
+}
+
+/* Pixel 2 XL */
+@media only screen and (min-device-width: 411px) and (max-device-height: 823px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+	.news-listing  .wt-post-media img {
+		width: 377px !important;
+		height: 236px !important;
+	}
+}
+
 /* Main slider */
 .rev_column_bg, .rev_column_inner, .tp-blockmask {
 	background-color: #e4d2b3 !important;
