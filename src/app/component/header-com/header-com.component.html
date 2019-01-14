@@ -31,10 +31,10 @@
             <li>
               <a routerLink="/collections" class="nav-link">Collections</a>
               <ul class="sub-menu">
-                <li><a routerLink="/">Cantero Collection</a></li>
-                <li><a routerLink="/">The Krossa Collection</a></li>
+                <li *ngFor="let collection of collections; let i = index;"><a routerLink="/collection-detail/{{collection.id}}">{{collection.title}}</a></li>
+                <!-- <li><a routerLink="/">The Krossa Collection</a></li>
                 <li><a routerLink="/">Ornek Collection</a></li>
-                <li><a routerLink="/">Porous Collection</a></li>
+                <li><a routerLink="/">Porous Collection</a></li> -->
               </ul>
             </li>
             <li>

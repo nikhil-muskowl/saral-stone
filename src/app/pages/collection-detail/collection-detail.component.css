@@ -1,0 +1,13 @@
+#coll-dtl-img {
+    width: 100%;
+    height: 500px;
+}
+
+#coll-title {
+    margin-top: 25px;
+}
+
+/* Mac ----------- */
+@media only screen and (min-device-width : 1680px) and (max-device-width : 10250px) {
+
+}

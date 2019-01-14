@@ -9,10 +9,12 @@ import { OurWorksComponent } from './pages/our-works/our-works.component';
 import { TermsAndConditionsComponent } from './pages/terms-and-conditions/terms-and-conditions.component';
 import { PrivacyPolicyComponent } from './pages/privacy-policy/privacy-policy.component';
 import { CollectionsComponent } from './pages/collections/collections.component';
+import { CollectionDetailComponent } from './pages/collection-detail/collection-detail.component';
 import { ProductsComponent } from './pages/products/products.component';
+import { ProductDetailComponent } from './pages/product-detail/product-detail.component';
+import { ProjectDetailComponent } from './pages/project-detail/project-detail.component';
 import { BlogsComponent } from './pages/blogs/blogs.component';
 import { BlogDetailComponent } from './pages/blog-detail/blog-detail.component';
-import { ProjectDetailComponent } from './pages/project-detail/project-detail.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -22,10 +24,12 @@ const routes: Routes = [
   { path: 'terms-&-conditions', component: TermsAndConditionsComponent },
   { path: 'privacy-policy', component: PrivacyPolicyComponent },
   { path: 'collections', component: CollectionsComponent },
+  { path: 'collection-detail/:id', component: CollectionDetailComponent },
   { path: 'products', component: ProductsComponent },
+  { path: 'product-detail/:id', component: ProductDetailComponent },
+  { path: 'project-detail/:id', component: ProjectDetailComponent },
   { path: 'blogs', component: BlogsComponent },
   { path: 'blog-detail/:id', component: BlogDetailComponent },
-  { path: 'project-detail', component: ProjectDetailComponent },
 ];
 
 @NgModule({
